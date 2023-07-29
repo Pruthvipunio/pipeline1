@@ -1,6 +1,6 @@
-pipeline {
+Pipeline {
   agent any;
-  satges {
+  stages {
     stage ('BUILD') {
       steps {
         echo "This is Biuld stage"
