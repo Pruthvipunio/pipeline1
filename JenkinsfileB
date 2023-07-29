@@ -1,0 +1,11 @@
+pipeline {
+  agent any;
+  satges {
+    stage ('BUILD') {
+      steps {
+        echo "This is Biuld stage"
+      } 
+    }
+  }
+
+}
