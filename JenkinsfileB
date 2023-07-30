@@ -6,6 +6,18 @@ Pipeline {
         echo "This is Biuld stage"
       } 
     }
+
+    stage ('TEST') {
+      steps {
+        echo "This is Biuld stage"
+      } 
+    }
+
+     stage ('DEPLOY') {
+      steps {
+        echo "This is Biuld stage"
+      } 
+    }
   }
 
 }
